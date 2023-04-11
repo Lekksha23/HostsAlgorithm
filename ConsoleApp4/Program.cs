@@ -32,29 +32,3 @@ int[] GetAllowedHostIndexes(string[] A, string[] B)
     Array.Resize(ref allowedHostIndexes, count);
     return allowedHostIndexes;
 }
-
-//int[] GetFilteredHosts(string[] hosts, string[] forbiddenHosts)
-//{
-//    var filteredHosts = new int[hosts.Length];
-//    var forbiddenHostsDict = new Dictionary<string, int>();
-//    for (int i = 0; i < forbiddenHosts.Length; i++)
-//    {
-//        forbiddenHostsDict.Add(forbiddenHosts[i], i);
-//    }
-
-//    var index = 0;
-//    for (int i = 0; i < hosts.Length; i++)
-//    {
-//        if (!forbiddenHostsDict.ContainsKey(hosts[i]))
-//        {
-//            filteredHosts[index] = i;
-//            index++;
-//        }
-//        else if (hosts[i].)
-//    }
-//    return filteredHosts;
-//}
-
-
-
-
